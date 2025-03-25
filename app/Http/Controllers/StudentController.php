@@ -13,8 +13,16 @@ class StudentController extends Controller
         return Inertia::render('Enrollment');
     }
 
+    public function displayStudents() {
+        return Inertia::render('Students');
+    }
+
     public function create(CreateStudentRequest $request, StudentServices $studentServices): void {
         $studentServices->createStudent($request);
         $studentServices->sendEnrollmentSuccessEmail($request);
+    }
+
+    public function index(Request $request, StudentServices $studentServices) {
+        return $studentServices->displayStudents($request);
     }
 }

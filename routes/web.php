@@ -5,7 +5,7 @@ use Inertia\Inertia;
 use App\Http\Controllers\StudentController;
 
 Route::get('/', function () {
-    return Inertia::render('welcome');
+    return to_route('students.display');
 })->name('home');
 
 // Parent Route
@@ -13,9 +13,13 @@ Route::get('/enrollment', [StudentController::class, 'displayEnrollment'])->name
 Route::post('/enroll', [StudentController::class, 'create'])->name('enroll');
 
 Route::middleware(['auth', 'verified'])->group(function () {
-    Route::get('dashboard', function () {
-        return Inertia::render('dashboard');
-    })->name('dashboard');
+    //Admin Route
+    Route::prefix('/students')->name('students.')
+    ->group(function () {
+        Route::get('/', [StudentController::class, 'displayStudents'])->name('display');
+        Route::get('/index', [StudentController::class, 'index'])->name('index');
+    });
+    
 });
 
 require __DIR__.'/settings.php';

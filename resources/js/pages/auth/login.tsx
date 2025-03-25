@@ -6,7 +6,7 @@ import InputError from '@/components/input-error';
 import TextLink from '@/components/text-link';
 import { Button } from '@/components/ui/button';
 import { Checkbox } from '@/components/ui/checkbox';
-import { Input } from '@/components/ui/input';
+import { InputText } from 'primereact/inputtext';
 import { Label } from '@/components/ui/label';
 import AuthLayout from '@/layouts/auth-layout';
 
@@ -43,7 +43,7 @@ export default function Login({ status, canResetPassword }: LoginProps) {
                 <div className="grid gap-6">
                     <div className="grid gap-2">
                         <Label htmlFor="username">Username</Label>
-                        <Input
+                        <InputText
                             id="username"
                             type="username"
                             required
@@ -60,7 +60,7 @@ export default function Login({ status, canResetPassword }: LoginProps) {
                         <div>
                             <Label htmlFor="password">Password</Label>
                         </div>
-                        <Input
+                        <InputText
                             id="password"
                             type="password"
                             required

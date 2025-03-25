@@ -1,0 +1,22 @@
+.p-calendar:not(.p-calendar-disabled).p-focus > .p-inputtext {
+    outline: 0 none;
+    outline-offset: 0;
+    box-shadow: var(--color-gray-200);
+    border-color: rgba(107, 114, 128, 0.9);
+}
+
+.p-datatable .p-datatable-tbody > tr > td {
+    text-align: left;
+    border: 1px solid #dddddd;
+    border-width: 0 0 0.5px 0;
+    padding: 0.5rem 0.5rem;
+}
+
+.p-datatable .p-datatable-header {
+    background: #ffffff;
+    color: #ffffff;
+    border: 1px solid #dddddd;
+    border-width: 1px 1px 0 1px;
+    padding: 0.857rem 1rem;
+    font-weight: 700;
+}
