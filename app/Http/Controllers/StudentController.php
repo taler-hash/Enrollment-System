@@ -15,5 +15,6 @@ class StudentController extends Controller
 
     public function create(CreateStudentRequest $request, StudentServices $studentServices): void {
         $studentServices->createStudent($request);
+        $studentServices->sendEnrollmentSuccessEmail($request);
     }
 }

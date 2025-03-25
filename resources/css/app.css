@@ -158,11 +158,12 @@
     }
 
     .p-datepicker {
-        @apply border padding-2
+        @apply border
     }
 }
 
 .p-datepicker {
     background-color: var(--background);
     border-radius: 0.375rem;
+    padding: 1rem;
 }
