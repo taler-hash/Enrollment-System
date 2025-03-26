@@ -3,7 +3,9 @@ a web-based Enrollment/Registration system for parents enrolling their child int
 
 ------------
 
-
+### Features
+- Can export data to excel file
+- After enrolling it will email to the parents email.
 
 ### TechStacks
 - Laravel (PHP Framework)
@@ -21,7 +23,6 @@ a web-based Enrollment/Registration system for parents enrolling their child int
 3. Node
 4. Mysql
 5. Git
-
 
 ### Installation
 1. Install all the Prerequisites mentioned above.
