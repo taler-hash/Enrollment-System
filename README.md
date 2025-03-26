@@ -5,7 +5,7 @@ a web-based Enrollment/Registration system for parents enrolling their child int
 
 
 
-###TechStacks
+### TechStacks
 - Laravel (PHP Framework)
 - React.JS 
 - Typescript
