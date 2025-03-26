@@ -25,4 +25,8 @@ class StudentController extends Controller
     public function index(Request $request, StudentServices $studentServices) {
         return $studentServices->displayStudents($request);
     }
+
+    public function export(StudentServices $studentServices) {
+        return $studentServices->exportStudents();
+    }
 }

@@ -2,8 +2,7 @@ import { PlaceholderPattern } from '@/components/ui/placeholder-pattern';
 import AppLayout from '@/layouts/app-layout';
 import { type BreadcrumbItem } from '@/types';
 import { Head } from '@inertiajs/react';
-import StudentTable from '@/components/students/tablev2'
-import { SortOrder } from 'primereact/api';
+import StudentTable from '@/components/students/table'
 
 const breadcrumbs: BreadcrumbItem[] = [
     {

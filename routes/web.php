@@ -18,6 +18,7 @@ Route::middleware(['auth', 'verified'])->group(function () {
     ->group(function () {
         Route::get('/', [StudentController::class, 'displayStudents'])->name('display');
         Route::get('/index', [StudentController::class, 'index'])->name('index');
+        Route::get('/export', [StudentController::class, 'export'])->name('export');
     });
     
 });

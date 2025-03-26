@@ -4,6 +4,8 @@ namespace App\Services;
 use App\Models\Student;
 use Illuminate\Support\Facades\Mail;
 use App\Mail\EnrollmentSuccessEmail;
+use App\Exports\StudentsExport;
+use Maatwebsite\Excel\Facades\Excel;
 
 class StudentServices {
 
@@ -28,5 +30,9 @@ class StudentServices {
         if(empty($sortType)) return null;
 
         return $sortType <= 0 ? 'desc' : 'asc';
+    }
+
+    public function exportStudents() {
+        return Excel::download(new StudentsExport, 'students.xlsx');
     }
 }
