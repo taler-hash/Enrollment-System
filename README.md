@@ -37,10 +37,11 @@ a web-based Enrollment/Registration system for parents enrolling their child int
 - port: `3306`
 - username: `root`
 8. After successfully adding connection join to that created connection and create schema and name it `enrollmentdb`.
-9. Once you created schema Open terminal from the directory `Enrollment-System` and run `npm run build`. 
-10. In the same terminal run this `php artisan migrate:fresh` to migrate.
-11. In the same terminal run this `php artisan db:seed` to seed the admin user.
-12. In the same terminal run this `php artisan serve` to start the application.
+9. Once you created schema Open terminal from the directory `Enrollment-System` and run `composer install`
+9. After running `composer install` run this `npm run build`. 
+10. After running `npm run build` run this `php artisan migrate:fresh` to migrate.
+11. After running `php artisan migrate:fresh` run this `php artisan db:seed` to seed the admin user.
+12. After running `php artisan db:seed` run this `php artisan serve` to start the application.
 12. Access `localhost:8000` to see if the application is working.
 
 ### Credentials for Admin
