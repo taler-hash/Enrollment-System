@@ -43,7 +43,7 @@ a web-based Enrollment/Registration system for parents enrolling their child int
 12. In the same terminal run this `php artisan serve` to start the application.
 12. Access `localhost:8000` to see if the application is working.
 
-### Credentials for admin
+### Credentials for 
 - username: admin
 - password: admin
 
@@ -51,6 +51,9 @@ a web-based Enrollment/Registration system for parents enrolling their child int
 - /enrollment - ( for enrolling students )
 - /login - ( login for admin )
 - /students - ( students lists for admin user only)
+
+### Frontend directory
+- resources/js
 
 #### Rough Sketch of the plan
 [Plan](https://drive.google.com/file/d/1zTiarVlTNGO3gRcQ6Q-EnvvBzf3U9s6j/view?usp=sharing "Rough Sketch Plan")
