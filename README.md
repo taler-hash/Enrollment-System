@@ -41,3 +41,7 @@ a web-based Enrollment/Registration system for parents enrolling their child int
 
 #### Rough Sketch of the plan
 [Plan](https://drive.google.com/file/d/1zTiarVlTNGO3gRcQ6Q-EnvvBzf3U9s6j/view?usp=sharing "Rough Sketch Plan")
+
+### PS
+- Developer: Jurie Tylier Pedrogas
+- Developed Time: 10hrs
