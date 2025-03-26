@@ -8,7 +8,7 @@ import { PrimeReactProvider } from "primereact/api";
 import "primereact/resources/themes/rhea/theme.css";
 import '../css/override.css'
 
-const appName = import.meta.env.VITE_APP_NAME || 'Laravel';
+const appName = import.meta.env.VITE_APP_NAME || 'EnrollmentSystem';
 
 createInertiaApp({
     title: (title) => `${title} - ${appName}`,
