@@ -43,7 +43,7 @@ a web-based Enrollment/Registration system for parents enrolling their child int
 12. In the same terminal run this `php artisan serve` to start the application.
 12. Access `localhost:8000` to see if the application is working.
 
-### Credentials for 
+### Credentials for Admin
 - username: admin
 - password: admin
 
