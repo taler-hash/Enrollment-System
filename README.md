@@ -27,7 +27,7 @@ a web-based Enrollment/Registration system for parents enrolling their child int
 1. Install all the Prerequisites mentioned above.
 2.  Clone this repository `https://github.com/taler-hash/Enrollment-System.git`.
 3. After cloning the repository go to the cloned directory `Enrollment-System`.
-4. Download the env file [.env file](https://drive.google.com/file/d/1Jb64_joIJwCVDAmxlbpIPHpfrof8Uvd8/view?usp=sharing ".env")
+4. Download the [.env file](https://drive.google.com/file/d/1Jb64_joIJwCVDAmxlbpIPHpfrof8Uvd8/view?usp=sharing ".env")
 5. After downloading the file cut or copy the downloaded file `.env` and put in the Enrollment-System directory  
 6. Open terminal from the directory `Enrollment-System` and run `npm run build`.
 7.  After that start the Mysql and PHP and in the same terminal run `php artisan serve`
