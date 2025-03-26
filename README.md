@@ -12,6 +12,7 @@ a web-based Enrollment/Registration system for parents enrolling their child int
 - React.JS 
 - Typescript
 - Inertia.JS
+- Tailwind CSS
 
 #### Package and Libraries
 - maatwebsite/excel (exporting excel) - Laravel package
